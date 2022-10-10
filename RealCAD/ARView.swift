@@ -11,6 +11,7 @@ struct ARView: View {
     var body: some View {
         VStack {
             Spacer()
+            ToolView()
         }
     }
 }
