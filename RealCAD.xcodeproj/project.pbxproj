@@ -11,6 +11,7 @@
 		AC48F05428F4882200C303FA /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48F05328F4882200C303FA /* ARView.swift */; };
 		AC48F05628F4882300C303FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC48F05528F4882300C303FA /* Assets.xcassets */; };
 		AC48F05928F4882300C303FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC48F05828F4882300C303FA /* Preview Assets.xcassets */; };
+		AC48F06028F4ADA600C303FA /* ToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48F05F28F4ADA600C303FA /* ToolView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AC48F05328F4882200C303FA /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		AC48F05528F4882300C303FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC48F05828F4882300C303FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC48F05F28F4ADA600C303FA /* ToolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
