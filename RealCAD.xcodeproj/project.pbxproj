@@ -12,6 +12,8 @@
 		AC48F05628F4882300C303FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC48F05528F4882300C303FA /* Assets.xcassets */; };
 		AC48F05928F4882300C303FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC48F05828F4882300C303FA /* Preview Assets.xcassets */; };
 		AC48F06028F4ADA600C303FA /* ToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48F05F28F4ADA600C303FA /* ToolView.swift */; };
+		AC48F06228F4B1A700C303FA /* DepthCropFrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48F06128F4B1A700C303FA /* DepthCropFrameView.swift */; };
+		AC48F06528F4B55E00C303FA /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48F06428F4B55E00C303FA /* CameraManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		AC48F05528F4882300C303FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC48F05828F4882300C303FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC48F05F28F4ADA600C303FA /* ToolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolView.swift; sourceTree = "<group>"; };
+		AC48F06128F4B1A700C303FA /* DepthCropFrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthCropFrameView.swift; sourceTree = "<group>"; };
+		AC48F06428F4B55E00C303FA /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +57,8 @@
 		AC48F05028F4882200C303FA /* RealCAD */ = {
 			isa = PBXGroup;
 			children = (
+				AC48F06328F4B53200C303FA /* Views */,
 				AC48F05128F4882200C303FA /* RealCADApp.swift */,
-				AC48F05328F4882200C303FA /* ARView.swift */,
-				AC48F05F28F4ADA600C303FA /* ToolView.swift */,
 				AC48F05528F4882300C303FA /* Assets.xcassets */,
 				AC48F05728F4882300C303FA /* Preview Content */,
 			);
@@ -68,6 +71,17 @@
 				AC48F05828F4882300C303FA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC48F06328F4B53200C303FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC48F05328F4882200C303FA /* ARView.swift */,
+				AC48F06428F4B55E00C303FA /* CameraManager.swift */,
+				AC48F06128F4B1A700C303FA /* DepthCropFrameView.swift */,
+				AC48F05F28F4ADA600C303FA /* ToolView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +156,9 @@
 			files = (
 				AC48F05428F4882200C303FA /* ARView.swift in Sources */,
 				AC48F06028F4ADA600C303FA /* ToolView.swift in Sources */,
+				AC48F06228F4B1A700C303FA /* DepthCropFrameView.swift in Sources */,
 				AC48F05228F4882200C303FA /* RealCADApp.swift in Sources */,
+				AC48F06528F4B55E00C303FA /* CameraManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,17 +15,14 @@ struct ToolView: View {
                     // TODO: Select Tool
                 }
                 .frame(maxWidth: .infinity)
-                .disabled(true)
 //                Button("View Pan") {
 //                    // TODO: Pan Tool
 //                }
 //                .frame(maxWidth: .infinity)
-//                .disabled(true)
-//                Button("View Rotate") {
+//               Button("View Rotate") {
 //                    // TODO: Rotate Tool
 //                }
 //                .frame(maxWidth: .infinity)
-//                .disabled(true)
             }
             .padding()
             HStack {
@@ -33,17 +30,14 @@ struct ToolView: View {
                     // TODO: Push/Pull Tool
                 }
                 .frame(maxWidth: .infinity)
-                .disabled(true)
 //                Button("Translate") {
 //                    // TODO: Intersect Tool
 //                }
 //                .frame(maxWidth: .infinity)
-//                .disabled(true)
-//                Button("Rotate") {
+//               Button("Rotate") {
 //                    // TODO: Subtract Tool
 //                }
 //                .frame(maxWidth: .infinity)
-//                .disabled(true)
             }
             .padding()
             HStack {
@@ -51,17 +45,14 @@ struct ToolView: View {
                     // TODO: Union Tool
                 }
                 .frame(maxWidth: .infinity)
-                .disabled(true)
                 Button("Intersect") {
                     // TODO: Intersect Tool
                 }
                 .frame(maxWidth: .infinity)
-                .disabled(true)
                 Button("Subtract") {
                     // TODO: Subtract Tool
                 }
                 .frame(maxWidth: .infinity)
-                .disabled(true)
             }
             .padding()
             HStack {
@@ -69,17 +60,14 @@ struct ToolView: View {
                     // TODO: Circle Tool
                 }
                 .frame(maxWidth: .infinity)
-                .disabled(true)
                 Button("Rectangle") {
                     // TODO: Rectangle Tool
                 }
                 .frame(maxWidth: .infinity)
-                .disabled(true)
                 Button("Line") {
                     // TODO: Line Tool
                 }
                 .frame(maxWidth: .infinity)
-                .disabled(true)
             }
             .padding()
 

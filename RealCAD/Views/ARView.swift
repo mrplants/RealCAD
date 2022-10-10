@@ -9,10 +9,16 @@ import SwiftUI
 
 struct ARView: View {
     var body: some View {
-        VStack {
-            Spacer()
-            ToolView()
+        ZStack {
+            DepthCropFrameView(image: nil)
+                .edgesIgnoringSafeArea(.all)
+            VStack {
+                Spacer()
+                ToolView()
+            }
+            .padding()
         }
+        .edgesIgnoringSafeArea(.all)
     }
 }
 
