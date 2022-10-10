@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC48F05228F4882200C303FA /* RealCADApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48F05128F4882200C303FA /* RealCADApp.swift */; };
-		AC48F05428F4882200C303FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48F05328F4882200C303FA /* ContentView.swift */; };
+		AC48F05428F4882200C303FA /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC48F05328F4882200C303FA /* ARView.swift */; };
 		AC48F05628F4882300C303FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC48F05528F4882300C303FA /* Assets.xcassets */; };
 		AC48F05928F4882300C303FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC48F05828F4882300C303FA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		AC48F04E28F4882200C303FA /* RealCAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealCAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC48F05128F4882200C303FA /* RealCADApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealCADApp.swift; sourceTree = "<group>"; };
-		AC48F05328F4882200C303FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC48F05328F4882200C303FA /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		AC48F05528F4882300C303FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC48F05828F4882300C303FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				AC48F05128F4882200C303FA /* RealCADApp.swift */,
-				AC48F05328F4882200C303FA /* ContentView.swift */,
+				AC48F05328F4882200C303FA /* ARView.swift */,
+				AC48F05F28F4ADA600C303FA /* ToolView.swift */,
 				AC48F05528F4882300C303FA /* Assets.xcassets */,
 				AC48F05728F4882300C303FA /* Preview Content */,
 			);
@@ -137,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC48F05428F4882200C303FA /* ContentView.swift in Sources */,
+				AC48F05428F4882200C303FA /* ARView.swift in Sources */,
+				AC48F06028F4ADA600C303FA /* ToolView.swift in Sources */,
 				AC48F05228F4882200C303FA /* RealCADApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
